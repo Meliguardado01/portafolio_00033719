@@ -1,0 +1,78 @@
+//PUNTO #1.
+pila=5
+valid= true
+segundoDato=0
+
+while(hasta que el segundo elemento salga)
+
+if(empty(s)){
+valid=false
+break
+}
+
+if (!empty(s)){
+valid=true
+i=pop(s)
+}
+
+if (!empty(s)){
+valid=true
+segundoDato = pop(s)
+break
+}
+
+
+---------------------------------------------------------------------------------------------------------------			
+				
+//PUNTO #2
+
+pila=5
+valid=true
+segundoDato=0
+
+while(hasta saber el segundo elemento)
+
+if(empty(s)){
+valid=false
+break
+}
+
+if(!empty(s)){
+valid=true 
+i=pop(s)
+}
+
+if(!empty(s)){
+valid=true 
+segundoDato=pop(s)
+push(s, segundoDato)
+push(s, i)
+return seg
+break
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
