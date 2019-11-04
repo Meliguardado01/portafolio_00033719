@@ -1,0 +1,82 @@
+ARBOL #1:
+
+1.
+RAIZ: A.
+RAMAS: B,C,D,E.
+HOJAS: F,G,H,I.
+
+2. 
+NIVEL DE CADA NODO:
+-A: 0.
+-B: 1.
+-C: 1.
+-D: 2.
+-E: 2.
+-F: 2.
+-G: 3.
+-H: 3.
+-I: 3.
+
+3. 
+PROFUNDIDAD: 3.
+PESO: 9.
+ORDEN: 2.
+
+4.
+SUB-ARBOL: C-E-F-H-I.
+
+5.
+NO ES LLENO O ESTRICTO, YA QUE HAY NODOS RAMAS QUE TIENEN SOLO 1 HIJO.
+
+6.
+SI ES PERFECTO O COMPLETO, YA QUE LOS ULTIMOS NODOS HOJAS TERMINAN EN EL MISMO NIVEL.
+
+7.
+RECORRIDOS:
+-PRE-ORDEN: A-B-D-G-C-E-H-I-F.
+-POST-ORDEN: G-D-B-H-I-E-F-C-A.
+-IN-ORDEN: G-D-B-A-H-E-I-C-F.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+ARBOL#2:
+
+1.
+RAIZ: A.
+RAMAS: B,C,D,E,F,H.
+HOJAS: G,I,J,K,L.
+
+2.
+NIVEL DE CADA NODO:
+-A: 0.
+-B: 1.
+-C: 2.
+-D: 2.
+-E: 3.
+-F: 3.
+-G: 3.
+-H: 3.
+-I: 4.
+-J: 4.
+-K: 4.
+-L: 4.
+
+3.
+PROFUNDIDAD: 4.
+PESO: 12.
+ORDEN: 2.
+
+4.
+SUB-ARBOL: C-E-F-I-J.
+
+5.
+NO ES LLENO O ESTRICTO, YA QUE HAY NODOS RAMAS QUE TIENEN SOLO 1 HIJO.
+
+6.
+SI ES PERFECTO O COMPLETO, YA QUE LOS ULTIMOS NODOS HOJAS TERMINAN EN EL MISMO NIVEL.
+
+7.
+RECORRIDOS:
+-PRE-ORDEN: A-B-C-E-I-F-J-D-G-H-K-L.
+-POST-ORDEN: I-E-J-F-C-G-K-L-H-D-B-A.
+-IN-ORDEN: I-E-C-J-F-B-A-G-D-K-H-L.
